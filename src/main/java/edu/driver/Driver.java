@@ -38,6 +38,7 @@ public class Driver {
 		driver.manage().deleteAllCookies();
 		return driver;
 	}
+	//reading properties file
 	public Properties readProperties() throws IOException {
 		Properties properties = new Properties();
 		FileInputStream input = new FileInputStream(filePath);
