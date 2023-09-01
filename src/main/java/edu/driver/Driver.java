@@ -16,6 +16,8 @@ public class Driver {
 	
 	static String filePath = System.getProperty("user.dir")+ File.separatorChar+"src"+File.separatorChar+"main"+File.separatorChar+"java"+File.separatorChar+"edu"+File.separatorChar+"driver"+File.separatorChar+"Automation.properties";
 	//static String filePath = "./src/main/java/edu/driver/Automation.properties";
+	
+	//invoking new driver
 	public WebDriver invokeDriver(){
 		try {
 			if(readProperties().getProperty("Browser").equalsIgnoreCase("Chrome")) {
