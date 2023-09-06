@@ -22,7 +22,8 @@ public class Fluentwait {
 		WebDriver d=new ChromeDriver();
 		d.get("https://the-internet.herokuapp.com/dynamic_loading/1	");
 		d.findElement(By.cssSelector("div[id='start'] button")).click();
-		Wait<WebDriver> wait=new FluentWait<WebDriver>(d).withTimeout(Duration.ofSeconds(10)).pollingEvery(Duration.ofSeconds(2)).ignoring(NoSuchElementException.class);
+		Wait<WebDriver> wait=new FluentWait<WebDriver>(d).withTimeout(Duration.ofSeconds(10))
+				.pollingEvery(Duration.ofSeconds(2)).ignoring(NoSuchElementException.class);
 
 		WebElement q =wait.until(new Function<WebDriver,WebElement>()
 		{

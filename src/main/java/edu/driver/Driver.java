@@ -14,7 +14,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class Driver {
 	public static WebDriver driver;
 	
-	static String filePath = System.getProperty("user.dir")+ File.separatorChar+"src"+File.separatorChar+"main"+File.separatorChar+"java"+File.separatorChar+"edu"+File.separatorChar+"driver"+File.separatorChar+"Automation.properties";
+	static String filePath = 
+			System.getProperty("user.dir")+ File.separatorChar+"src"+File.separatorChar+"main"
+	+File.separatorChar+"java"+File.separatorChar+"edu"+File.separatorChar+"driver"+File.separatorChar+"Automation.properties";
 	
 	
 	//invoking new driver
@@ -22,7 +24,8 @@ public class Driver {
 	public WebDriver invokeDriver(){
 		try {
 			if(readProperties().getProperty("Browser").equalsIgnoreCase("Chrome")) {
-				System.setProperty("webdriver.chrome.driver", "D:\\eclipse-workspace\\SeleniumLearning\\SeleniumProject\\src\\main\\resources\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver",
+						"D:\\eclipse-workspace\\SeleniumLearning\\SeleniumProject\\src\\main\\resources\\chromedriver.exe");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--high-dpi-support=1", "--force-device-scale-factor=1.5");
 				options.addArguments("--window-size=1920,1080");
