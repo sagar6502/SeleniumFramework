@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-12T19:14:56 IST" name="SeleniumLearning" finished-at="2023-09-12T19:14:57 IST" duration-ms="1218">
+  <suite started-at="2023-09-12T19:22:18 IST" name="SeleniumLearning" finished-at="2023-09-12T19:22:19 IST" duration-ms="1360">
     <groups>
     </groups>
-    <test started-at="2023-09-12T19:14:56 IST" name="MyFunction" finished-at="2023-09-12T19:14:57 IST" duration-ms="1104">
+    <test started-at="2023-09-12T19:22:18 IST" name="MyFunction" finished-at="2023-09-12T19:22:19 IST" duration-ms="1247">
       <class name="edu.relativeLocators.Screenshot.Test01">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:edu.relativeLocators.Screenshot.Test01@729d991e]" started-at="2023-09-12T19:14:56 IST" name="launchBrowser" finished-at="2023-09-12T19:14:57 IST" duration-ms="795" status="FAIL">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:edu.relativeLocators.Screenshot.Test01@729d991e]" started-at="2023-09-12T19:22:18 IST" name="launchBrowser" finished-at="2023-09-12T19:22:19 IST" duration-ms="914" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: invalid argument: entry 0 of 'firstMatch' is invalid
@@ -74,7 +74,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="validate_TakeScreenshot()[pri:0, instance:edu.relativeLocators.Screenshot.Test01@729d991e]" started-at="2023-09-12T19:14:57 IST" name="validate_TakeScreenshot" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validate_TakeScreenshot()[pri:0, instance:edu.relativeLocators.Screenshot.Test01@729d991e]" started-at="2023-09-12T19:22:19 IST" name="validate_TakeScreenshot" finished-at="2023-09-12T19:22:19 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: invalid argument: entry 0 of 'firstMatch' is invalid
@@ -141,7 +141,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_TakeScreenshot -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:edu.relativeLocators.Screenshot.Test01@729d991e]" started-at="2023-09-12T19:14:57 IST" name="closeDriver" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:edu.relativeLocators.Screenshot.Test01@729d991e]" started-at="2023-09-12T19:22:19 IST" name="closeDriver" finished-at="2023-09-12T19:22:19 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "GenericLibrary.SagarGenericLib.driver" is null]]>
@@ -182,7 +182,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeDriver -->
       </class> <!-- edu.relativeLocators.Screenshot.Test01 -->
       <class name="edu.relativeLocators.Screenshot.Test02">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:edu.relativeLocators.Screenshot.Test02@36916eb0]" started-at="2023-09-12T19:14:57 IST" name="launchBrowser" finished-at="2023-09-12T19:14:57 IST" duration-ms="129" status="FAIL">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:edu.relativeLocators.Screenshot.Test02@36916eb0]" started-at="2023-09-12T19:22:19 IST" name="launchBrowser" finished-at="2023-09-12T19:22:19 IST" duration-ms="128" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: invalid argument: entry 0 of 'firstMatch' is invalid
@@ -249,7 +249,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="validate_UseAutoIt()[pri:0, instance:edu.relativeLocators.Screenshot.Test02@36916eb0]" started-at="2023-09-12T19:14:57 IST" name="validate_UseAutoIt" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validate_UseAutoIt()[pri:0, instance:edu.relativeLocators.Screenshot.Test02@36916eb0]" started-at="2023-09-12T19:22:19 IST" name="validate_UseAutoIt" finished-at="2023-09-12T19:22:19 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: invalid argument: entry 0 of 'firstMatch' is invalid
@@ -316,7 +316,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_UseAutoIt -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:edu.relativeLocators.Screenshot.Test02@36916eb0]" started-at="2023-09-12T19:14:57 IST" name="closeDriver" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:edu.relativeLocators.Screenshot.Test02@36916eb0]" started-at="2023-09-12T19:22:19 IST" name="closeDriver" finished-at="2023-09-12T19:22:19 IST" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "GenericLibrary.SagarGenericLib.driver" is null]]>
@@ -357,7 +357,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeDriver -->
       </class> <!-- edu.relativeLocators.Screenshot.Test02 -->
       <class name="edu.relativeLocators.Screenshot.Test03">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:edu.relativeLocators.Screenshot.Test03@7bab3f1a]" started-at="2023-09-12T19:14:57 IST" name="launchBrowser" finished-at="2023-09-12T19:14:57 IST" duration-ms="121" status="FAIL">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:edu.relativeLocators.Screenshot.Test03@7bab3f1a]" started-at="2023-09-12T19:22:19 IST" name="launchBrowser" finished-at="2023-09-12T19:22:19 IST" duration-ms="121" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: invalid argument: entry 0 of 'firstMatch' is invalid
@@ -424,7 +424,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="validate_CalendarHandling()[pri:0, instance:edu.relativeLocators.Screenshot.Test03@7bab3f1a]" started-at="2023-09-12T19:14:57 IST" name="validate_CalendarHandling" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validate_CalendarHandling()[pri:0, instance:edu.relativeLocators.Screenshot.Test03@7bab3f1a]" started-at="2023-09-12T19:22:19 IST" name="validate_CalendarHandling" finished-at="2023-09-12T19:22:19 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 400. Message: invalid argument: entry 0 of 'firstMatch' is invalid
@@ -491,7 +491,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_CalendarHandling -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:edu.relativeLocators.Screenshot.Test03@7bab3f1a]" started-at="2023-09-12T19:14:57 IST" name="closeDriver" finished-at="2023-09-12T19:14:57 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:edu.relativeLocators.Screenshot.Test03@7bab3f1a]" started-at="2023-09-12T19:22:19 IST" name="closeDriver" finished-at="2023-09-12T19:22:19 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "GenericLibrary.SagarGenericLib.driver" is null]]>
@@ -532,33 +532,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeDriver -->
       </class> <!-- edu.relativeLocators.Screenshot.Test03 -->
     </test> <!-- MyFunction -->
-    <test started-at="2023-09-12T19:14:57 IST" name="LearnTestNG" finished-at="2023-09-12T19:14:57 IST" duration-ms="19">
+    <test started-at="2023-09-12T19:22:19 IST" name="LearnTestNG" finished-at="2023-09-12T19:22:19 IST" duration-ms="16">
       <class name="edu.testng.test1">
-        <test-method signature="testing1()[pri:0, instance:edu.testng.test1@4b45a2f5]" started-at="2023-09-12T19:14:57 IST" name="testing1" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="PASS">
+        <test-method signature="testing1()[pri:0, instance:edu.testng.test1@4b45a2f5]" started-at="2023-09-12T19:22:19 IST" name="testing1" finished-at="2023-09-12T19:22:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing1 -->
       </class> <!-- edu.testng.test1 -->
       <class name="edu.testng.test2">
-        <test-method signature="testing2()[pri:0, instance:edu.testng.test2@f09733f]" started-at="2023-09-12T19:14:57 IST" name="testing2" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="PASS">
+        <test-method signature="testing2()[pri:0, instance:edu.testng.test2@f09733f]" started-at="2023-09-12T19:22:19 IST" name="testing2" finished-at="2023-09-12T19:22:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing2 -->
       </class> <!-- edu.testng.test2 -->
       <class name="edu.testng.test3">
-        <test-method signature="LoadingButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:14:57 IST" name="LoadingButton" finished-at="2023-09-12T19:14:57 IST" duration-ms="0" status="PASS">
+        <test-method signature="LoadingButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:22:19 IST" name="LoadingButton" finished-at="2023-09-12T19:22:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadingButton -->
-        <test-method signature="NavigateButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:14:57 IST" name="NavigateButton" finished-at="2023-09-12T19:14:57 IST" duration-ms="1" status="PASS">
+        <test-method signature="NavigateButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:22:19 IST" name="NavigateButton" finished-at="2023-09-12T19:22:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateButton -->
-        <test-method signature="TestingButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:14:57 IST" name="TestingButton" finished-at="2023-09-12T19:14:57 IST" duration-ms="1" status="PASS">
+        <test-method signature="TestingButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:22:19 IST" name="TestingButton" finished-at="2023-09-12T19:22:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestingButton -->
-        <test-method signature="WebLoginButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:14:57 IST" name="WebLoginButton" finished-at="2023-09-12T19:14:57 IST" duration-ms="1" status="PASS">
+        <test-method signature="WebLoginButton()[pri:0, instance:edu.testng.test3@2794eab6]" started-at="2023-09-12T19:22:19 IST" name="WebLoginButton" finished-at="2023-09-12T19:22:19 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginButton -->
