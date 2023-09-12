@@ -1,4 +1,6 @@
 # Ignore HTML and XML files
+/test-output/
+/target/classes/META-INF/
 *.html
 *.xml
-/test-output/
+
