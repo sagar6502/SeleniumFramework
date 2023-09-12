@@ -1,7 +1,9 @@
 package edu.relativeLocators.Screenshot;
 
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.Test;
 
 import GenericLibrary.SagarGenericLib;
