@@ -1,5 +1,7 @@
 package edu.relativeLocators.Screenshot;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import GenericLibrary.SagarGenericLib;
@@ -8,18 +10,18 @@ public class Test02 {
 	SagarGenericLib reFunc = new SagarGenericLib();
 	String browserLink = "https://smallpdf.com/jpg-to-pdf";
 	
-	@Test(alwaysRun = true)
+	@BeforeTest(alwaysRun = true)
 	public void launchBrowser() {
 		reFunc.launchURL(browserLink);
 	}
 	
 	
-	@Test(dependsOnMethods = "launchBrowser")
+	@Test
 	public void validate_UseAutoIt() throws Exception {
 		reFunc.useAutoIt();
 	}
 	
-	@Test(dependsOnMethods = "validate_UseAutoIt", enabled = false)
+	@AfterTest(alwaysRun = true)
 	public void closeDriver() {
 		reFunc.closeDriver();
 	}

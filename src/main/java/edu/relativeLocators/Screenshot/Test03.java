@@ -6,9 +6,10 @@ import org.testng.annotations.Test;
 
 import GenericLibrary.SagarGenericLib;
 
-public class Test01 {
+public class Test03 {
+	
 	SagarGenericLib reFunc = new SagarGenericLib();
-	String browserLink = "https://rahulshettyacademy.com/angularpractice/";
+	String browserLink = "https://www.spicejet.com/";
 	
 	@BeforeTest(alwaysRun = true)
 	public void launchBrowser() {
@@ -17,13 +18,13 @@ public class Test01 {
 	
 	
 	@Test
-	public void validate_TakeScreenshot() {
-		reFunc.takeFullScreenShot();
+	public void validate_CalendarHandling() throws Exception {
+		reFunc.bookFlight();
+		Thread.sleep(5000);
 	}
 	
 	@AfterTest(alwaysRun = true)
 	public void closeDriver() {
 		reFunc.closeDriver();
 	}
-
 }

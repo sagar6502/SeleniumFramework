@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.PageLoadStrategy;
 
 public class Driver {
 	public static WebDriver driver;
@@ -30,6 +31,9 @@ public class Driver {
 				options.addArguments("--high-dpi-support=1", "--force-device-scale-factor=1.5");
 				options.addArguments("--window-size=1920,1080");
 				options.addArguments("--start-maximized");
+				options.addArguments("--incognito");
+				options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+				options.setExperimentalOption("networkConnectionEnabled", false);
 				if(readProperties().getProperty("Headless").equalsIgnoreCase("true"))
 					options.addArguments("--headless");
 				driver = new ChromeDriver(options);
