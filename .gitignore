@@ -1,5 +1,5 @@
-# Ignore HTML and XML files
-/test-output/*
+# Ignore HTML and XML file
+/test-output/junitreports/*
 /target/classes/META-INF/
 *.html
 *.xml
