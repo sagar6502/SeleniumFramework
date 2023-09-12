@@ -1,4 +1,4 @@
 # Ignore HTML and XML files
 *.html
 *.xml
-/target/
+/test-output/
