@@ -3,11 +3,6 @@
 <suite name="Failed suite [SeleniumLearning]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="MyFunction(failed)">
     <classes>
-      <class name="edu.testng.test2">
-        <methods>
-          <include name="testing2"/>
-        </methods>
-      </class> <!-- edu.testng.test2 -->
       <class name="edu.relativeLocators.Screenshot.Test02">
         <methods>
           <include name="closeDriver"/>
@@ -29,11 +24,6 @@
           <include name="validate_TakeScreenshot"/>
         </methods>
       </class> <!-- edu.relativeLocators.Screenshot.Test01 -->
-      <class name="edu.testng.test1">
-        <methods>
-          <include name="testing1"/>
-        </methods>
-      </class> <!-- edu.testng.test1 -->
     </classes>
   </test> <!-- MyFunction(failed) -->
 </suite> <!-- Failed suite [SeleniumLearning] -->
