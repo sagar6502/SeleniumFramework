@@ -1,6 +1,7 @@
 package edu.relativeLocators.Screenshot;
 
-import org.testng.annotations.AfterTest;
+import java.io.IOException;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -11,7 +12,7 @@ public class Test02 {
 	String browserLink = "https://smallpdf.com/jpg-to-pdf";
 	
 	@BeforeTest(alwaysRun = true)
-	public void launchBrowser() {
+	public void launchBrowser() throws IOException {
 		reFunc.launchURL(browserLink);
 	}
 	
@@ -21,8 +22,4 @@ public class Test02 {
 		reFunc.useAutoIt();
 	}
 	
-	@AfterTest(alwaysRun = true)
-	public void closeDriver() {
-		reFunc.closeDriver();
-	}
 }

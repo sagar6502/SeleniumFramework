@@ -1,5 +1,7 @@
 package edu.relativeLocators.Screenshot;
 
+import java.io.IOException;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -12,7 +14,7 @@ public class Test03 {
 	String browserLink = "https://www.spicejet.com/";
 	
 	@BeforeTest(alwaysRun = true)
-	public void launchBrowser() {
+	public void launchBrowser() throws IOException {
 		reFunc.launchURL(browserLink);
 	}
 	
