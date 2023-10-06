@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import edu.Factory.DataFactory;
+import edu.Factory.TestData;
 import edu.Factory.ReusableFunction;
 import edu.driver.Driver;
 

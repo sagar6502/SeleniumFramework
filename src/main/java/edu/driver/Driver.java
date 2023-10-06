@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 
-import edu.Factory.DataFactory;
+import edu.Factory.TestData;
 
 public class Driver {
 	public static WebDriver driver;

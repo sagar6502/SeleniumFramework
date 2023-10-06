@@ -7,12 +7,12 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import GenericLibrary.SagarGenericLib;
-import edu.Factory.DataFactory;
+import edu.Factory.TestData;
 
 public class Test01 {
 	SagarGenericLib reFunc = new SagarGenericLib();
 	String browserLink = "https://www.makemytrip.com/";
-	DataFactory datafactory;
+	TestData datafactory;
 	
 	@BeforeTest(alwaysRun = true)
 	public void launchBrowser() throws IOException {
