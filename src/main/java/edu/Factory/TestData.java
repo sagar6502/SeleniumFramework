@@ -67,6 +67,7 @@ public class TestData {
         	for (Row row : sheet) {
                 Cell yesCell = row.getCell(yesColumnIndex);
                 Cell moduleCell = row.getCell(moduleColumnIndex);
+                System.out.println(row.getPhysicalNumberOfCells());
                 boolean moduleCase = moduleCell.toString().equals(moduleName);
                 boolean testCase = yesCell != null && yesCell.getCellType() == CellType.STRING && yesCell.getStringCellValue().equals("Yes");
                 if (testCase && moduleCase ) {

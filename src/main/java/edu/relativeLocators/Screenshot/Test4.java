@@ -3,6 +3,7 @@ package edu.relativeLocators.Screenshot;
 import java.io.IOException;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import GenericLibrary.SagarGenericLib;
 import edu.Factory.TestData;
@@ -13,7 +14,7 @@ public class Test4 {
 	String browserLink = "https://jwt.io/";
 	TestData data = new TestData();
 	
-	@BeforeTest(alwaysRun = true)
+	@Test(alwaysRun = true)
 	public void launchBrowser() throws IOException {
 		data.readData_Yes();
 		//reFunc.launchURL(browserLink);

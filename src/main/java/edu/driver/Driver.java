@@ -28,7 +28,7 @@ public class Driver {
 		try {
 			if(readProperties().getProperty("Browser").equalsIgnoreCase("Chrome")) {
 				System.setProperty("webdriver.chrome.driver",
-						"D:\\eclipse-workspace\\SeleniumLearning\\SeleniumProject\\src\\main\\resources\\chromedriver.exe");
+						"D:\\SeleniumLearning\\SeleniumFramework\\src\\main\\resources\\chromedriver.exe");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--high-dpi-support=1", "--force-device-scale-factor=1.5");
 				options.addArguments("--window-size=1920,1080");
@@ -36,7 +36,7 @@ public class Driver {
 				//options.addArguments("--incognito");
 				//options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 				//options.setExperimentalOption("networkConnectionEnabled", false);
-				if(readProperties().getProperty("Headless").equalsIgnoreCase("true"))
+				if(readProperties().getProperty("Headless").equalsIgnoreCase("false"))
 					options.addArguments("--headless");
 				driver = new ChromeDriver(options);
 				
